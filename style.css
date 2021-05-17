@@ -213,10 +213,13 @@ header{
   text-align: center;
 }
 #alpha-channel{
+  clear: both;
   float: left;
   width: 40%;
 }
 #alpha-channel img{
+  clear: both;
+  float: left;
   width: 450px;
 }
 #free-select{
