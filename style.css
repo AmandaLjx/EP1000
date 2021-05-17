@@ -1,0 +1,263 @@
+body{
+  background-color: #E7F0FF;
+  color: #00245A;
+  margin: 0;
+  padding-left: 0;
+  font-family: monospace, monospace;
+}
+
+a{
+  color: #0040A0;
+}
+
+h1{
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+h3{
+  font-size: 20px;
+}
+
+header{
+  text-align: center;
+  padding-top: 45px;
+}
+
+.menu-bar {
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-left: 20px;
+}
+
+.menu-bar ul{
+  list-style-type: none;
+  font-size: 18px;
+  overflow: hidden;
+  line-height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-bar li{
+  float: left;
+
+}
+
+.menu-bar li a{
+  color: #00245A;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0;
+}
+
+.menu-bar .active{
+  background-color: #E7F0FF;
+}
+
+.menu-bar li a:hover{
+  background-color: #CDE0FF;
+  color: #00245A;
+}
+
+.sub-menu-1{
+  display: none;
+  clear: both;
+  position: absolute;
+}
+
+.menu-bar ul li:hover .sub-menu-1{
+  display: block;
+  position: absolute;
+  background-color: #FFFFFF;
+  margin: 0;
+  opacity: 90%;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul{
+  display: block;
+  position: absolute;
+  list-style-type: none;
+  font-size: 14px;
+  overflow: hidden;
+  line-height: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  border-bottom-style: solid;
+  border-color: white;
+  border-width: 4px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li{
+  width: 200px;
+  padding: 0;
+  text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+  background-color: #CDE0FF;
+  color: #00245A;
+}
+
+
+#home p{
+  font-size: 20px;
+}
+#home h2{
+  font-size: 24px;
+  font-weight: bold;
+}
+#home{
+  text-align: justify;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 0px;
+}
+
+
+
+#aboutweb p{
+  font-size: 18px;
+}
+#aboutweb{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 5px solid white;
+}
+#biodata p{
+  font-size: 18px;
+}
+#aboutme{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 0px;
+
+}
+#selfie img{
+  width: 20%;
+  float: left;
+  padding-left: 25px;
+}
+#biodata{
+  width: 70%;
+  float: right;
+  margin-top: -10px;
+}
+#topics{
+  clear: both;
+  width: 40%;
+  margin: auto;
+  padding: 10px;
+}
+#topics p{
+  font-size: 12px;
+}
+
+#safetyinfo{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#safetyattire{
+  width: 70%;
+  float: left;
+}
+
+#outfit img{
+  width: 10%;
+  float: left;
+}
+
+#outfit{
+  margin-top: 35px;
+}
+
+#safetypractices{
+  clear: both;
+}
+
+#cadintro{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#rastergraphics{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#picture-a, #picture-a img{
+  width: 400px;
+  float: left;
+  text-align: center;
+}
+#picture-b, #picture-b img{
+  width: 450px;
+  float: left;
+  margin-left: 20px;
+  text-align: center;
+}
+#alpha-channel{
+  float: left;
+  width: 40%;
+}
+#alpha-channel img{
+  width: 450px;
+}
+#free-select{
+  float: left;
+  width: 40%;
+}
+#free-select img{
+  width: 50px;
+}
+#invert{
+  float: left;
+  width: 40%;
+}
+#invert img{
+  width: 400px;
+}
+#clear{
+  clear: both;
+  float: left;
+  width: 40%;
+}
+#clear img{
+  width: 400px;
+}
+#transparent-background img{
+  float: left;
+  width: 500px;
+}
+#final-raster{
+  padding-top: 10px;
+  clear: both;
+}
+#final-raster img{
+  width: 1024px;
+}
+
+footer{
+  clear: both;
+  background-color: #FFFFFF;
+  color: #00245A;
+  line-height: 30px;
+  text-align: right;
+  padding-right: 20px;
+  font-size: 12px;
+}

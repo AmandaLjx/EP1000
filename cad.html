@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CAD - Amanda & EP1000</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <header>
+      <h1>Computer Aided Design</h1>
+    </header>
+    <div class="menu-bar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">My Projects</a>
+          <div class="sub-menu-1">
+            <ul>
+              <li><a href="safety.html">FabLab Safety</a></li>
+              <li><a href="webdevelopment.html">Web Development</a></li>
+              <li><a href="cad.html" class="active">Computer Aided Design</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div id="cadintro">
+      <h3>List of Topics Covered</h3>
+        <ul>
+          <li>Raster Graphics</li>
+          <li>Vector Graphics</li>
+          <li>Introduction to Autodesk Fusion 360</li>
+          <li>Drawing Exercise 1</li>
+          <li>Drawing Exercise 2</li>
+        </ul>
+    </div>
+    <div id="rastergraphics">
+      <h3>Raster Graphics</h3>
+      <p>Using the software <b>GIMP</b>, I removed the background from picture A and replaced it with picture B.</p>
+      <div id="picture-a">
+        <img src="images/picture-A.jpeg" alt="Picture A"><p>Picture A</p>
+      </div>
+      <div id="picture-b">
+        <img src="images/picture-B.jpg" alt="Picture B"><p>Picture B</p>
+      </div>
+      <div id="alpha-channel">
+        <p>To remove the background, firstly start by clicking Layer > Transparency > Add Alpha Channel.</p>
+        <img src="images/transparency-tool.png" alt="Transparency Channel">
+      </div>
+      <div id="free-select">
+        <p>Next, use the Free Select Tool to outline the parts you want to keep, make sure the starting node is also the last node (closed off).</p>
+        <img src="images/free-select-tool.png" alt="Free Select Tool">
+      </div>
+      <div id="invert">
+        <p>Next, select Select > Invert. </p>
+        <img src="images/select-invert.png" alt="Invert">
+      </div>
+      <div id="clear">
+        <p>Lastly, select Edit > Clear. This should make the background transparent.</p>
+        <img src="images/edit-clear.png" alt="Clear">
+      </div>
+      <div id="transparent-background">
+        <img src="images/background-removed.png" alt="Transparent Background">
+      </div>
+      <div id="final-raster">
+        <p>To change the background, just add in the picture of choice and the finished product should be something like this.</p>
+        <img src="images/background-change.png" alt="Background Replaced">
+      </div>
+    </div>
+  </body>
+  <footer>
+    <p>Copyright &copy; Amanda Lai 2021</p>
+  </footer>
+</html>
