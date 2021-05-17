@@ -77,7 +77,6 @@ header{
   background-color: #FFFFFF;
   margin: 0;
   opacity: 90%;
-  text-align: left;
 }
 
 .menu-bar ul li:hover .sub-menu-1 ul{
@@ -85,6 +84,7 @@ header{
   position: absolute;
   list-style-type: none;
   font-size: 14px;
+  text-align: left;
   overflow: hidden;
   line-height: 16px;
   margin: 0;
