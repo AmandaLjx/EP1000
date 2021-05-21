@@ -220,21 +220,23 @@ header{
 #alpha-channel img{
   clear: both;
   float: left;
-  width: 400px;
+  width: 100%;
 }
 #free-select{
   float: left;
   width: 40%;
+  padding-left: 40px;
 }
 #free-select img{
-  width: 50px;
+  width: 15%;
 }
 #invert{
   float: left;
   width: 40%;
+  padding-left: 40px;
 }
 #invert img{
-  width: 400px;
+  width: 100%;
 }
 #clear{
   clear: both;
@@ -242,11 +244,15 @@ header{
   width: 40%;
 }
 #clear img{
-  width: 400px;
+  width: 100%;
 }
-#transparent-background img{
+#transparent-background{
   float: left;
-  width: 500px;
+  width: 60%;
+}
+
+#transparent-background img{
+  width: 100%;
 }
 #final-raster{
   padding-top: 10px;
