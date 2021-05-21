@@ -3,7 +3,7 @@ body{
   color: #00245A;
   margin: 0;
   padding-left: 0;
-  font-family: monospace, monospace;
+  font-family: Menlo, Consolas, DejaVu Sans Mono, monospace;
 }
 
 a{
@@ -220,7 +220,7 @@ header{
 #alpha-channel img{
   clear: both;
   float: left;
-  width: 450px;
+  width: 400px;
 }
 #free-select{
   float: left;
