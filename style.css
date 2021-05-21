@@ -16,7 +16,7 @@ h1{
 }
 
 h3{
-  font-size: 20px;
+  font-size: 19px;
 }
 
 header{
@@ -34,7 +34,7 @@ header{
 
 .menu-bar ul{
   list-style-type: none;
-  font-size: 18px;
+  font-size: 17px;
   overflow: hidden;
   line-height: 20px;
   margin: 0;
@@ -84,7 +84,7 @@ header{
   display: block;
   position: absolute;
   list-style-type: none;
-  font-size: 14px;
+  font-size: 13px;
   overflow: hidden;
   line-height: 16px;
   margin: 0;
@@ -111,10 +111,10 @@ header{
 
 
 #home p{
-  font-size: 20px;
+  font-size: 19px;
 }
 #home h2{
-  font-size: 24px;
+  font-size: 23px;
   font-weight: bold;
 }
 #home{
@@ -128,7 +128,7 @@ header{
 
 
 #aboutweb p{
-  font-size: 18px;
+  font-size: 17px;
 }
 #aboutweb{
   width: 80%;
@@ -137,7 +137,7 @@ header{
   border-bottom: 5px solid white;
 }
 #biodata p{
-  font-size: 18px;
+  font-size: 17px;
 }
 #aboutme{
   width: 80%;
@@ -200,6 +200,7 @@ header{
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  font-size: 17px;
 }
 #picture-a, #picture-a img{
   width: 400px;
@@ -270,4 +271,5 @@ footer{
   text-align: right;
   padding-right: 20px;
   font-size: 12px;
+  font-weight: bold;
 }
