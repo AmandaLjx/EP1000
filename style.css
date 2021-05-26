@@ -306,14 +306,14 @@ header{
   margin-right: 10%;
 }
 [alt="CSS for About page (1)"] {
-  width: 40%;
+  width: 30%;
   float: left;
-  margin-left: 10%;
+  margin-left: 20%;
 }
-[alt="CSS for about page (2)"] {
-  width: 40%;
+[alt="CSS for About page (2)"] {
+  width: 30%;
   float: left;
-  margin-right: 10%;
+  margin-right: 20%;
 }
 #web-nav{
   clear: both;
@@ -323,18 +323,18 @@ header{
   margin-right: auto;
 }
 [alt="Navigation Bar HTML"] {
-  width: 70%;
-  margin-left: 15%;
-  margin-right: 15%;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 [alt="Basic Navigation Bar CSS"] {
   width: 20%;
-  margin-left: 20%;
+  margin-left: 25%;
   float: left;
 }
 [alt="DropDown Navigation Bar CSS"] {
-  width: 40%;
-  margin-right: 20%;
+  width: 30%;
+  margin-right: 25%;
   float: left;
 }
 #GitHub{
@@ -357,14 +357,15 @@ header{
   margin-right: 15%;
 }
 [alt="Timeline CSS (1)"],[alt="Timeline CSS (2)"]{
-  clear: both;
   width: 20%;
-  margin-left: 20%;
   float: left;
 }
-[alt="Timeline CSS (3)"],[alt="Timeline CSS (4)"]{
-  width: 40%;
-  margin-right: 20%;
+[alt="Timeline CSS (3)"]{
+  width: 25%;
+  float: left;
+}
+[alt="Timeline CSS (4)"]{
+  width: 35%;
   float: left;
 }
 
