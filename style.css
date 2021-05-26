@@ -36,7 +36,6 @@ header{
   padding-left: 20px;
   z-index: 10;
 }
-
 .menu-bar ul{
   list-style-type: none;
   font-size: 17px;
@@ -45,12 +44,9 @@ header{
   margin: 0;
   padding: 0;
 }
-
 .menu-bar li{
   float: left;
-
 }
-
 .menu-bar li a{
   color: #00245A;
   display: block;
@@ -60,22 +56,18 @@ header{
   font-weight: bold;
   margin: 0;
 }
-
 .menu-bar .active{
   background-color: #E7F0FF;
 }
-
 .menu-bar li a:hover{
   background-color: #CDE0FF;
   color: #00245A;
 }
-
 .sub-menu-1{
   display: none;
   clear: both;
   position: absolute;
 }
-
 .menu-bar ul li:hover .sub-menu-1{
   display: block;
   position: absolute;
@@ -84,7 +76,6 @@ header{
   opacity: 90%;
   text-align: left;
 }
-
 .menu-bar ul li:hover .sub-menu-1 ul{
   display: block;
   position: absolute;
@@ -102,13 +93,11 @@ header{
   border-color: white;
   border-width: 4px;
 }
-
 .menu-bar ul li:hover .sub-menu-1 ul li{
   width: 200px;
   padding: 0;
   text-align: left;
 }
-
 .menu-bar ul li:hover .sub-menu-1 ul li a:hover{
   background-color: #CDE0FF;
   color: #00245A;
@@ -130,8 +119,6 @@ header{
   padding: 20px 0px;
 }
 
-
-
 #aboutweb p{
   font-size: 17px;
 }
@@ -149,7 +136,6 @@ header{
   margin-left: auto;
   margin-right: auto;
   padding: 30px 0px;
-
 }
 #selfie img{
   width: 20%;
@@ -305,12 +291,82 @@ header{
   margin-right: auto;
 }
 #web-template img{
-  width: 100%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
-
-
-
-
+#web-process{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+[alt="about.html Content"]{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+[alt="CSS for About page (1)"] {
+  width: 45%;
+  float: left;
+  margin-left: 5%;
+}
+[alt="CSS for about page (2)"] {
+  width: 45%;
+  float: left;
+  margin-right: 5%;
+}
+#web-nav{
+  clear: both;
+  padding-top: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+[alt="Navigation Bar HTML"] {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+[alt="Basic Navigation Bar CSS"] {
+  width: 30%;
+  margin-left: 10%;
+  float: left;
+}
+[alt="DropDown Navigation Bar CSS"] {
+  width: 50%;
+  margin-right: 10%;
+  float: left;
+}
+#GitHub{
+  padding-top: 20px;
+  clear: both;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#web-extra{
+  clear: both;
+  padding-top: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+[alt="Timeline HTMl"]{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+[alt="Timeline CSS (1)"],[alt="Timeline CSS (2)"]{
+  clear: both;
+  width: 30%;
+  margin-left: 10%;
+  float: left;
+}
+[alt="Timeline CSS (3)"],[alt="Timeline CSS (4)"]{
+  width: 50%;
+  margin-right: 10%;
+  float: left;
+}
 
 
 footer{
