@@ -345,9 +345,7 @@ header{
   margin-right: auto;
 }
 [alt="Create Repository"], [alt="Publish Repository"]{
-  width: 30%;
-  margin-left: 35%;
-  margin-right: 35%;
+  width: 20%;
 }
 [alt="Commit to Main"], [alt="GitHub pages"]{
   width: 70%;
