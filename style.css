@@ -291,9 +291,9 @@ header{
   margin-right: auto;
 }
 #web-template img{
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 #web-process{
   width: 80%;
@@ -301,19 +301,19 @@ header{
   margin-right: auto;
 }
 [alt="about.html Content"]{
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 [alt="CSS for About page (1)"] {
-  width: 45%;
+  width: 40%;
   float: left;
-  margin-left: 5%;
+  margin-left: 10%;
 }
 [alt="CSS for about page (2)"] {
-  width: 45%;
+  width: 40%;
   float: left;
-  margin-right: 5%;
+  margin-right: 10%;
 }
 #web-nav{
   clear: both;
@@ -323,18 +323,18 @@ header{
   margin-right: auto;
 }
 [alt="Navigation Bar HTML"] {
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 [alt="Basic Navigation Bar CSS"] {
-  width: 30%;
-  margin-left: 10%;
+  width: 20%;
+  margin-left: 20%;
   float: left;
 }
 [alt="DropDown Navigation Bar CSS"] {
-  width: 50%;
-  margin-right: 10%;
+  width: 40%;
+  margin-right: 20%;
   float: left;
 }
 #GitHub{
@@ -352,19 +352,19 @@ header{
   margin-right: auto;
 }
 [alt="Timeline HTMl"]{
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 [alt="Timeline CSS (1)"],[alt="Timeline CSS (2)"]{
   clear: both;
-  width: 30%;
-  margin-left: 10%;
+  width: 20%;
+  margin-left: 20%;
   float: left;
 }
 [alt="Timeline CSS (3)"],[alt="Timeline CSS (4)"]{
-  width: 50%;
-  margin-right: 10%;
+  width: 40%;
+  margin-right: 20%;
   float: left;
 }
 
