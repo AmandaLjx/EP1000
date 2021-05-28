@@ -406,7 +406,7 @@ header{
   width: 30%;
   margin-left: 10%;
 }
-[alt="Sketch Exercise 1"]{
+[alt="Sketch Exercise 1"],[alt="Single Cube"]{
   width: 20%;
   margin-left: 40%;
   margin-right: 40%;
@@ -421,22 +421,14 @@ header{
   margin-left: 25%;
   margin-right: 25%;
 }
-[alt="Lego Brick"],[alt="Cubes"]{
+[alt="Lego Brick"],[alt="Cubes"],[alt="Hex Nut step 1"]{
   float: left;
   width: 30%;
   margin-left: 20%;
 }
-[alt="Lego Brick Bottom"],[alt="Cubes Bottom"]{
+[alt="Lego Brick Bottom"],[alt="Cubes Bottom"],[alt="Hex Nut step 2"]{
   float: left;
   width: 30%;
-}
-[alt="Single Cube"]{
-  width: 20%;
-  margin-left: 40%;
-  margin-right: 40%;
-}
-[alt="Mug step 1"],[alt="Mug step 2"]{
-  width: 70%;
 }
 #mug-1{
   clear: both;
@@ -448,6 +440,17 @@ header{
   width: 50%;
   margin-left: 10%;
 }
+[alt="Mug step 1"],[alt="Mug step 2"]{
+  width: 70%;
+}
+[alt="Hex nut step 3"],[alt="Chess Piece Canvas"]{
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+
+
 
 footer{
   clear: both;
