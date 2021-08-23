@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CAD - Amanda & EP1000</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Programming</h1>
+    </header>
+    <div class="menu-bar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">My Projects</a>
+          <div class="sub-menu-1">
+            <ul>
+              <li><a href="safety.html">FabLab Safety</a></li>
+              <li><a href="webdevelopment.html">Web Development</a></li>
+              <li><a href="cad.html">Computer Aided Design</a></li>
+              <li><a href="3D.html">3D Modelling</a></li>
+              <li><a href="programming.html" class="active">Programming</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="finalproject.html">Final Project</a></li>
+      </ul>
+    </div>
+    <div id="P_intro">
+      <h3>List of Topics Covered</h3>
+        <ul style="list-style-type: circle;">
+          <li><a href="#rastergraphics">Raster Graphics</a></li>
+          <li><a href="#vectorgraphics">Vector Graphics</a></li>
+          <li><a href="#sketching-2d">2D Sketching Exercise 1 & 2</a></li>
+          <li><a href="#modelling-3d">3D Modelling Introduction</a>
+            <ul style="list-style-type: disc;">
+              <li>3D Modelling Exercise: <a href="#cad-nametag">Name Tag</a></li>
+              <li>3D Modelling Exercise: <a href="#cad-lego">Lego Brick</a></li>
+              <li>3D Modelling Exercise: <a href="#cad-cubes">Cubes</a></li>
+              <li>3D Modelling Exercise: <a href="#cad-mug">Mug with Handle</a></li>
+              <li>3D Modelling Exercise: <a href="#cad-nut">Hex Nut</a></li>
+              <li>3D Modelling Exercise: <a href="#cad-chess">Chess Piece - Knight</a></li>
+            </ul>
+          </li>
+        </ul>
+    </div>
+    <div id="rastergraphics">
+      <h3>Raster Graphics</h3>
+      <p>Using the software <b><a href="https://www.gimp.org/">GIMP</a></b>, I removed the background from picture A and replaced it with picture B. I refered to this video by gimp workshop found <a href="https://www.youtube.com/watch?v=C0tg2mRroSY">here</a>.</p>
+      <div id="picture-a">
+        <img src="images/picture-A.jpeg" alt="Picture A"><p>Picture A</p>
+      </div>
+      <div id="picture-b">
+        <img src="images/picture-B.jpg" alt="Picture B"><p>Picture B</p>
+      </div>
+      <div id="alpha-channel">
+        <p>To remove the background, firstly start by clicking Layer > Transparency > Add Alpha Channel.</p>
+        <img src="images/transparency-tool.png" alt="Transparency Channel">
+      </div>
+      <div id="free-select">
+        <p>Next, use the Free Select Tool to outline the parts you want to keep, make sure the starting node is also the last node (closed off).</p>
+        <img src="images/free-select-tool.png" alt="Free Select Tool">
+      </div>
+      <div id="invert">
+        <p>Next, select Select > Invert. </p>
+        <img src="images/select-invert.png" alt="Invert">
+      </div>
+      <div id="clear">
+        <p>Lastly, select Edit > Clear. This should make the background transparent.</p>
+        <img src="images/edit-clear.png" alt="Clear">
+      </div>
+      <div id="transparent-background">
+        <img src="images/background-removed.png" alt="Transparent Background">
+      </div>
+      <div id="final-raster">
+        <p>To change the background, just add in the picture of choice and the finished product should be something like this.</p>
+        <img src="images/background-change.png" alt="Background Replaced">
+      </div>
+    </div>
+    <div id="vectorgraphics">
+      <h3>Vector Graphics</h3>
+      <p>Using the software <b><a href="https://inkscape.org/">Inkscape</a></b>, I created a vector image using this picture of a puppy. I refered to this video by Logos by Nick found <a href="https://www.youtube.com/watch?v=s-kPg4vYKfk">here</a> to complete this task.</p>
+      <img src="images/dog-image.jpg" alt="Dog Picture">
+      <p>First, you should start by adding a new layer on the top of the current one which is your image. change the opacity of your image layer to about 50% so that you can work on your drawing easily. <br>
+      Next, use the bezier tool <img src="images/bezier-vector.png" alt="Bezier tool"> to draw vectors. You can click one point then another and hold and drag to form a curve. An example is shown below.</p>
+      <img src="images/lines-vector.png" alt="Bezier lines">
+      <p>Once you are done with one area, your path should look something like this.</p>
+      <img src="images/path-example-vector.png" alt="Path example">
+      <p>Next, use the edit path tool <img src="images/editpath-vector.png" alt="Edit path tool"> to edit the the curves or lines where needed. You can move nodes or the lines itself. Once you are satisfied, just select the enclosed path area and choose the colour you would like to fill it with. To remove the outline hold 'shift' then click the cross (clear colour). <br>
+      To create a new area, remember to use a new layer so that it is way more managable. Repeat this process a few times until you are done and have a lovely vector image. I created mine both in colour and greyscale, they can be seen below. </p>
+      <img src="images/dog-vector.png" alt="Dog vector image">
+      <img src="images/bw-dog-vector.png" alt="Greyscale dog vector image">
+    </div>
+    <div id="sketching-2d">
+      <h3>2D Sketching Exercise 1 & 2</h3>
+      <p>Here, we will start the use of Autodesk Fusion 360 as our CAD software. We started learning the basics of CAD by learning how to sketch in Fusion 360. We touched simple sketch functions like lines, circles, rectangle, construction lines, measure, constraints and a few more. Fusion 360 is very similar to Autodesk Inventor that I had previously learnt in one of my year 1 modules.</p>
+      <p>We started off with exercise 1 which is a simple sketch as seen below. This involved the used of lines, rectangles and circles to complete as well as the trim functiom to make it look neater. The file can be found <a href="files/Exercise 1.f3d">here</a>.</p>
+      <img src="images/cad-exercise-1.png" alt="Sketch Exercise 1">
+      <p>Next for exercise 2, we did a slightly tougher sketch which involved using circles, polygons and construction lines as well as contraints. The file can be found <a href="files/Exercise 2.f3d">here</a>.</p>
+      <img src="images/cad-exercise-2.png" alt="Sketch Exercise 2">
+    </div>
+    <div id="modelling-3d">
+      <h3>3d Modelling Introduction</h3>
+      <p>For 3D modelling in Fusion 360 there are 3 main methods: Extrusion, Rotation and Sculpting. Extrusion is where you extend a 2D sketch profile into a 3rd plane. Rotation is where you rotate a 2D plane profile around an axis. Sculpting is where you start with a 3D object and by adding, removing, dividing, pulling and pushing the sections form a finished product.</p>
+    </div>
+    <div id="cad-nametag">
+      <h3>3D Modelling Exercise: Name Tag</h3>
+      <p>Let's make a name tag. The dimensions are 30mm x 70mm x 4mm. The rim is of thickness 1.5mm and height 2.5mm. The key-ring hole with diameter of 4mm, and 1.5mm rim. Name/text to be 0.5mm below the surface. The base should be 1.5mm thick. The file of what I did can be found <a href="files/Name Tag.f3d">here</a>.</p>
+      <img src="images/cad-nametag.png" alt="Name Tag">
+      <p>Step 1, sketch the basic shape of the base, what I did is shown below. Once done, extrude this to a height of 1.5mm.</p>
+      <img src="images/nametag-step1.png" alt="Name Tag step 1">
+      <p>Step 2, on the surface of the extruded body, create a new sketch and sketch out the rim areas as shown below. Once done, extrude this to a height of 2.5mm.</p>
+      <img src="images/nametag-step2.png" alt="Name Tag step 2">
+      <p>Step 3, on the same surface as in step 2, create a new sketch and use the text function. Key in the name or text of choice, when choosing the font make sure it is not too thin. You should get something like what is shown. Once done, extrude this text to a height of 2mm. And you are done!</p>
+      <img src="images/nametag-step3.png" alt="Name Tag step 3">
+    </div>
+    <div id="cad-lego">
+      <h3>3D Modelling Exercise: Lego Brick</h3>
+      <p>Let's build a Lego Brick! I'm sure you have played with Legos before so why not make them yourself. I would not be going too in depth for this exercise as I followed this video on <a href="https://www.youtube.com/watch?v=6yPKMSb6ja8">How to 3D Model a Lego Brick</a> by Product Design Online. You can also follow this tutorial if you are interested. </p>
+      <p>For this exercise I made use of functions like shell, extrude, pattern and fillet. My finished product is shown below, you can also find the file of what I did <a href="files/Lego.f3d">here</a>.</p>
+      <img src="images/cad-lego.png" alt="Lego Brick">
+      <img src="images/cad-lego-under.png" alt="Lego Brick Bottom">
+    </div>
+    <div id="cad-cubes">
+      <h3>3D Modelling Exercise: Cubes</h3>
+      <p>Make this object that made up of 20 cubes that are 20mm x 20mm x 20mm. This is then shelled to a thickness of 4mm. For this i used functions such as copy and paste, extrude, shell and combine. The file can be found <a href="files/Cubes.f3d">here</a>.</p>
+      <img src="images/cad-cubes.png" alt="Cubes">
+      <img src="images/cad-cubes-under.png" alt="Cubes Bottom">
+      <p style="clear: both; padding-top: 20px;">Well, how to create this? There are many methods but what did I use? I took a single cube, copy and pasted it 20 times until the shape was completed. I then combined all the cubes into one body. Next, I shelled the bottom to a thickness of 4mm. That completes this exercise.</p>
+      <img src="images/cad-cube.png" alt="Single Cube">
+    </div>
+    <div id="cad-mug">
+      <h3>3D Modelling Exercise: Mug with Handle</h3>
+      <p>We are continuing our use of Fusion 360 by making a mug with a handle. The diamensions are 50mm(d) x 80mm(h). We needed to include an arc at the base of the mug and have the thickness be 2.5mm. Add a handle that is 6mm thick, for this it is free and easy.</p>
+      <iframe style="float: left;"src="https://ichat1941.autodesk360.com/shares/public/SH919a0QTf3c32634dcfd498bd50b7440337?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+      <div id="mug-1">
+        <p>To create this we first start with creating a sketch of how the main mug body should look like. This sketch profile is then revolved along the centre axis.</p>
+        <img src="images/cad-mug-step1.png" alt="Mug step 1">
+      </div>
+      <div id="mug-2">
+        <p>Next, create a new sketch on the same plane as the first and create a handle of your choice. A tip is to create the tips of the handle slightly into the revolved profile so that it is fully inside. For my handle I used the fit point spline function.</p>
+        <img src="images/cad-mug-step2.png" alt="Mug step 2">
+      </div>
+      <p style="clear: both;">Extrude this handle bar symmetrically to a thickness of 6mm. And the mug is completed!</p>
+    </div>
+    <div id="cad-nut">
+      <h3>3D Modelling Exercise: Hex Nut</h3>
+      <p>A hex nut? Yeah it can also be made by 3D modelling. For this I will go into slight details as I followed this video on <a href="https://www.youtube.com/watch?v=Xho87HJ-XDo">How to 3D Model a Hex Nut
+      </a> by Product Design Online. You can follow the tutorial if you are interested. This hex nut is 20mm between flat surfaces and 10mm thick.</p>
+      <iframe src="https://ichat1941.autodesk360.com/shares/public/SH919a0QTf3c32634dcf4e5dbc9156a7e84b?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+      <p>First, a sketch of a pentagon. Then extrude it 10mm. Next, create a triangle as shown below and use the revolve function and cut away from the current body.</p>
+      <img src="images/cad-nut-step1.png" alt="Hex Nut step 1">
+      <img src="images/cad-nut-step2.png" alt="Hex Nut step 2">
+      <p style="clear: both;">Once done create a plane in the middle of the nut and mirror the revolve cut profile. Now both sides should have this chamfer. Lastly, add the threaded hole and it is done.</p>
+      <img src="images/cad-nut-step3.png" alt="Hex nut step 3">
+    </div>
+    <div id="cad-chess">
+      <h3>3D Modelling Exercise: Chess Piece - Knight</h3>
+      <p>Using what was taught to far, design a knight chess piece that has a base of 30mm, height of 50mm, and head thickness of 5mm. The base should also be hollow. Using a template image as a canvas to help complete this exercise.</p>
+      <iframe src="https://ichat1941.autodesk360.com/shares/public/SH919a0QTf3c32634dcfd0f90cb74b6abfba?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+      <p>The template image I used is this knight chess piece template I took off the web. For this, I used functions such as extrude, loft, fillet and a few others. The curved lines can also be created using the line function.</p>
+      <img src="images/chess-canvas.png" alt="Chess Piece Canvas">
+    </div>
+  </body>
+  <footer>
+    <p>Copyright &copy; 2021 Amanda Lai</p>
+  </footer>
+</html>
