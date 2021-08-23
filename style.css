@@ -421,12 +421,12 @@ header{
   margin-left: 25%;
   margin-right: 25%;
 }
-[alt="Lego Brick"],[alt="Cubes"],[alt="Hex Nut step 1"],[alt="Laptop 1"],[alt="Music Box Side 1"],[alt="Music Box Side 2"],[alt="Music Box Bottom"],[alt="Music Box Top"],[alt="Music Box Top Cut"]{
+[alt="Lego Brick"],[alt="Cubes"],[alt="Hex Nut step 1"],[alt="Laptop 1"],[alt="Music Box Side 1"],[alt="Music Box Side 2"],[alt="Music Box Bottom"],[alt="Music Box Top"],[alt="Music Box Top Cut"],[alt="Music Box View 1"],[alt="Chess Piece Printed 1"]{
   float: left;
   width: 30%;
   margin-left: 20%;
 }
-[alt="Lego Brick Bottom"],[alt="Cubes Bottom"],[alt="Hex Nut step 2"],[alt="Laptop 2"],[alt="Music Box Side 1 3D"],[alt="Music Box Side 2 3D"],[alt="Music Box Bottom Cut"],[alt="Music Box Top 3D"],[alt="Music Box Front"]{
+[alt="Lego Brick Bottom"],[alt="Cubes Bottom"],[alt="Hex Nut step 2"],[alt="Laptop 2"],[alt="Music Box Side 1 3D"],[alt="Music Box Side 2 3D"],[alt="Music Box Bottom Cut"],[alt="Music Box Top 3D"],[alt="Music Box Front"],[alt="Music Box View 2"],[alt="Chess Piece Printed 2"]{
   float: left;
   width: 30%;
 }
@@ -443,12 +443,12 @@ header{
 [alt="Mug step 1"],[alt="Mug step 2"]{
   width: 70%;
 }
-[alt="Hex nut step 3"],[alt="Chess Piece Canvas"],[alt="Music Box Sides"],[alt="Music Box"]{
+[alt="Hex nut step 3"],[alt="Chess Piece Canvas"],[alt="Music Box Sides"],[alt="Music Box"],[alt="Music Box Design"],[alt="Chess Piece Print Cura"]{
   width: 30%;
   margin-left: 35%;
   margin-right: 35%;
 }
-#musicbox-laser{
+#musicbox-laser, #laser-cut, #print-3d{
   clear: both;
   width: 80%;
   margin-left: auto;
@@ -457,12 +457,27 @@ header{
   padding-top: 20px;
   text-align: justify;
 }
-[alt="Music Box Sketch"],[alt="Music Box Parameter"]{
+[alt="Music Box Sketch"],[alt="Music Box Parameter"],[alt="Music Box DXF"]{
   width: 70%;
   margin-left: 15%;
   margin-right: 15%;
 }
-
+#music1{
+  float: left;
+  width: 35%;
+  margin-left: 14%;
+  text-align: left;
+}
+#music2{
+  float: left;
+  width: 35%;
+  margin-left: 2%;
+  margin-right: 14%;
+  text-align: left;
+}
+[alt="Music Box Cutting"],[alt="Music Box Cutout"]{
+  width: 100%;
+}
 
 footer{
   clear: both;
