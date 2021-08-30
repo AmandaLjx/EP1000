@@ -448,7 +448,7 @@ header{
   margin-left: 35%;
   margin-right: 35%;
 }
-#musicbox-laser, #laser-cut, #print-3d, #circuit-555, #uno-segment, #uno-many-states{
+#musicbox-laser, #laser-cut, #print-3d, #circuit-555, #uno-segment, #uno-many-states, #intro-pj, #ideation, #showcase{
   clear: both;
   width: 80%;
   margin-left: auto;
@@ -457,7 +457,7 @@ header{
   padding-top: 20px;
   text-align: justify;
 }
-[alt="Music Box Sketch"],[alt="Music Box Parameter"],[alt="Music Box DXF"],[alt="555 Timer Schematic"],[alt="Countdown Timer"],[alt="LED 1 Circuit"],[alt="LED 2 Circuit"],[alt="LED 3 Circuit"]{
+[alt="Music Box Sketch"],[alt="Music Box Parameter"],[alt="Music Box DXF"],[alt="555 Timer Schematic"],[alt="Countdown Timer"],[alt="LED 1 Circuit"],[alt="LED 2 Circuit"],[alt="LED 3 Circuit"],[alt="Rough Sketch"]{
   width: 70%;
   margin-left: 15%;
   margin-right: 15%;
