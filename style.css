@@ -448,7 +448,7 @@ header{
   margin-left: 35%;
   margin-right: 35%;
 }
-#musicbox-laser, #laser-cut, #print-3d, #circuit-555, #uno-segment, #uno-many-states, #intro-pj, #ideation, #showcase{
+#musicbox-laser, #laser-cut, #print-3d, #circuit-555, #uno-segment, #uno-many-states, #intro-pj, #ideation, #showcase, #modelling{
   clear: both;
   width: 80%;
   margin-left: auto;
@@ -481,6 +481,39 @@ header{
 [alt="LED 1"],[alt="LED 2"],[alt="LED 3-1"],[alt="LED 3-2"],[alt="LED 4-1"],[alt="LED 4-2"]{
   width: 30%;
   margin-left: 0;
+}
+
+#table-2{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#table-2 table,th,td{
+  border: 2px solid #00245A;
+  border-collapse: collapse;
+}
+#table-2 th,td{
+  padding: 15px;
+  font-size: 16px;
+}
+#table-2 th{
+  text-align: left;
+  font-size: 18px;
+  background-color: #00245A;
+  color: #fff;
+}
+#table-2 table{
+  border-spacing: 5px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#table-2 caption{
+  font-weight: bold;
+  text-align: left;
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 footer{
