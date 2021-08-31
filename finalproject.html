@@ -28,17 +28,33 @@
         <li><a href="finalproject.html" class="active">Final Project</a></li>
       </ul>
     </div>
-    <div class="one">
+    <div id="list-pj">
+      <h3>List of Topics Covered</h3>
+        <ul style="list-style-type: disc;">
+          <li><a href="#intro-pj">Introduction</a></li>
+          <li><a href="#ideation-pj">Ideation</a></li>
+          <li><a href="#modelling-pj">Modelling</a></li>
+          <li><a href="#print-pj">Printing and Laser Cutting</a></li>
+          <li><a href="#circuit-pj">Circuitry</a></li>
+          <li><a href="#code-pj">Programming</a></li>
+          <li><a href="#assembly-pj">Assembly</a></li>
+          <li><a href="#finished-pj">Finished Project</a></li>
+          <li><a href="#table-2">List of Materials Used</a></li>
+          <li><a href="#review-pj">Review</a></li>
+          <li><a href="#showcase-pj">Showcase</a></li>
+        </ul>
+    </div>
+    <div id="intro-pj">
       <h3>Self-Watering Plant System</h3>
       <p>For my Final Project for this module, I decided to make a self-watering plant system. I came up with this idea after seeing a youtube video where a guy made a similar irrigation system using Arduino UNO. The videos I saw can be found <a href="https://youtube.com/playlist?list=PLQrWrWWVJVpdr44Zqx0NEyFqFSC5NCcL4">here</a>, they helped me understand the basic concept of how to create such a system.</p>
     </div>
-    <div class="one">
+    <div id="ideation-pj">
       <h3>Ideation</h3>
       <p>I started by sketching out the design that I wanted. I wanted to create a housing that can be rested on its bottom and back so I came up with a pentagon design.</p>
       <img src="images/sketch-pj.png" alt="Rough Sketch">
       <p>I decided that the housing was to be laser cut and the other parts I needed to create to be 3D printed (eg. sensor housing, hinge, pcb mount).</p>
     </div>
-    <div class="one">
+    <div id="modelling-pj">
       <h3>Modelling</h3>
       <p>I started modelling the housing using Fusion360 with the aid of using parameters. The holes for wiring and power supply is not added as these can be drilled after. The back lid is made such that I can open it when needed. I used tabs so that the pieces can be easily attached to eachother.</p>
       <iframe src="https://ichat1941.autodesk360.com/shares/public/SH919a0QTf3c32634dcf331a96a879b7a6ee?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
@@ -51,14 +67,14 @@
       <p>Lastly, to help the water-tube stay better on the surface of the soil, I decided to print a few 'pegs' to stick in the soil.</p>
       <iframe src="https://ichat1941.autodesk360.com/shares/public/SH919a0QTf3c32634dcfaf09a4dabdd88571?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
     </div>
-    <div class="one">
+    <div id="print-pj">
       <h3>Printing and Laser Cutting</h3>
       <p>After the modelling was completed I started with the printing and laser cutting of my pieces. To start off, I laser cut my main housing by exporting each file in DXF format and I added a graphic for the front piece of the housing before laser cutting. Then I printed the pcb mount, sensor housing and the hinges and the pegs I would be using.</p>
       <img src="images/pieces-pj.jpg" alt="Produced Pieces">
       <img src="images/pegs-pj.jpg" alt="Printed Pegs">
       <img src="images/hinge-pj.jpg" alt="Printed Hinge">
     </div>
-    <div class="one">
+    <div id="circuit-pj">
       <h3>Circuitry</h3>
       <img src="images/circuit-pj.png" alt="Circuit Schematic">
       <p>I used the circuit that I drew out above. I connected the wires to the nano by soldering it. I used heat shrink wires to make sure my soldered parts are protected. As this was my first time soldering, I found it pretty difficult and I took pretty to solder my first few connections. However, after soldering more, I found that I was able to complete the soldering process much quicker. Below are some pictures of what I soldered.</p>
@@ -67,7 +83,7 @@
       <img src="images/solder3-pj.jpg" alt="Solder Nano">
       <img src="images/solder4-pj.jpg" alt="Solder All">
     </div>
-    <div class="one">
+    <div id="code-pj">
       <h3>Programming</h3>
       <p>To start of the Arduino Code for my nano I put in the libraries I would be using.</p>
       <img src="images/code1-pj.png" alt="Code Libraries">
@@ -83,7 +99,7 @@
       <img src="images/code6-pj.png" alt="Code LCD">
       <p>The full code for my Arduino code can be found <a href="files/Plant Watering System.ino">here</a>.</p>
     </div>
-    <div class="one">
+    <div id="assembly-pj">
       <h3>Assembly</h3>
       <p>After I finished the coding, I started to assemble my project. I first attached my hinge onto the back pieces of the housing. For this, I used UHU glue as I didnt have acrylic glue on hand. This allowed for the opening and closing of the back lid.</p>
       <img src="images/glueHinge-pj.jpg" alt="Glued Hinge">
@@ -100,7 +116,7 @@
       <img src="images/tubeSlit-pj.jpg" alt="Clear Tube Slit">
       <img src="images/tubeSnip-pj.jpg" alt="Clear Tube Snip">
     </div>
-    <div class="one">
+    <div id="finished-pj">
       <h3>Finished Project</h3>
       <p>These are some pictures of my project.</p>
       <img src="images/view1-pj.jpg" alt="Project View 1">
@@ -161,12 +177,12 @@
         </tr>
       </table>
     </div>
-    <div class="one">
+    <div id="review-pj">
       <h3>Review</h3>
       <p><b>What was successful?</b><br> Generally the whole laser cutting and 3d printing process went relatively well. The laser cut and 3d printed parts had some parts which were smaller than electronics that were supposed to fit in so I just filed it down and it worked fine afterwards.</p>
       <p><b>What needs more work?</b><br> My initial plan was to have one more sensor which was the LDR which can be seen in some of my photos. I had even glued it onto my sensor housing. However when I was testing it, the LDR changed the voltage too much such that it affected my soil moisture sensor. In the end I had to remove it. This could have been fixed by using a variable resistor to control the voltage better.</p>
     </div>
-    <div class="one">
+    <div id="showcase-pj">
       <h3>Showcase</h3>
       <p>Here is a 1 minute video of how my self-watering plant system works.</p>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/pH17Lllt43c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

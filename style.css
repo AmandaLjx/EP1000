@@ -482,7 +482,7 @@ header{
   width: 30%;
   margin-left: 0;
 }
-.one{
+#list-pj, #intro-pj, #ideation-pj, #modelling-pj, #print-pj, #circuit-pj, #code-pj, #assembly-pj, #finished-pj, #review-pj, #showcase-pj{
   clear: both;
   width: 80%;
   margin-left: auto;
