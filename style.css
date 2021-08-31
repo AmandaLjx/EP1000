@@ -524,6 +524,9 @@ header{
   float: left;
   width: 50%;
 }
+[alt="Code Libraries"],[alt="Code Variables"],[alt="Code Setup"],[alt="Code Input"],[alt="Code Pump"],[alt="Code LCD"]{
+  width: 600px;
+}
 #table-2{
   width: 80%;
   margin-left: auto;
