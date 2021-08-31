@@ -448,7 +448,7 @@ header{
   margin-left: 35%;
   margin-right: 35%;
 }
-#musicbox-laser, #laser-cut, #print-3d, #circuit-555, #uno-segment, #uno-many-states, #intro-pj, #ideation, #showcase, #modelling, #circuitry, #printing{
+#musicbox-laser, #laser-cut, #print-3d, #circuit-555, #uno-segment, #uno-many-states{
   clear: both;
   width: 80%;
   margin-left: auto;
@@ -482,14 +482,45 @@ header{
   width: 30%;
   margin-left: 0;
 }
+.one{
+  clear: both;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 17px;
+  padding-top: 20px;
+  text-align: justify;
+}
 [alt="Printed Pegs"]{
   width: 50%;
+  float: left;
   margin-left: 10%;
 }
 [alt="Printed Hinge"]{
   width: 30%;
+  float: left;
   margin-right: 10%;
 }
+[alt="Solder Power"],[alt="Solder Nano"],[alt="Glued Sensor Internal"],[alt="Clear Tube Slit"]{
+  float: left;
+  width: 35%;
+  margin-left: 15%;
+}
+[alt="Solder Sensors"],[alt="Solder All"],[alt="Glued Sensor External"],[alt="Clear Tube Snip"]{
+  width: 35%;
+  float: left;
+}
+[alt="Glued Hinge"],[alt="Glued Housing"],[alt="Clear Tube"]{
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+[alt="Internal Circuitry"]{
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
 #table-2{
   width: 80%;
   margin-left: auto;
