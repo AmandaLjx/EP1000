@@ -520,7 +520,10 @@ header{
   margin-left: 25%;
   margin-right: 25%;
 }
-
+[alt="Project View 1"],[alt="Project View 2"],[alt="Project View 3"],[alt="Project View 4"],[alt="Project View 5"],[alt="Project View 6"],[alt="Project View 7"],[alt="Project View 8"]{
+  float: left;
+  width: 50%;
+}
 #table-2{
   width: 80%;
   margin-left: auto;
